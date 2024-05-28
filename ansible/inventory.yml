@@ -1,0 +1,5 @@
+ubuntu:
+  hosts:
+    3.132.235.250:
+      ansible_ssh_private_key_file: ~/.ssh/aws_lab
+      ansible_user: ubuntu

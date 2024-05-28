@@ -1,0 +1,366 @@
+[
+    {
+        "Architecture": "x86_64",
+        "CreationDate": "2024-04-17T00:22:43.000Z",
+        "ImageId": "ami-0e8c19c1d68a886ab",
+        "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20240416-aced0818-eef1-427a-9e04-8ba38bada306",
+        "ImageType": "machine",
+        "Public": true,
+        "OwnerId": "679593333241",
+        "PlatformDetails": "Linux/UNIX",
+        "UsageOperation": "RunInstances",
+        "ProductCodes": [
+            {
+                "ProductCodeId": "a8jyynf4hjutohctm41o2z18m",
+                "ProductCodeType": "marketplace"
+            }
+        ],
+        "State": "available",
+        "BlockDeviceMappings": [
+            {
+                "DeviceName": "/dev/sda1",
+                "Ebs": {
+                    "DeleteOnTermination": true,
+                    "SnapshotId": "snap-0224a74bd39e1c5d7",
+                    "VolumeSize": 8,
+                    "VolumeType": "gp2",
+                    "Encrypted": false
+                }
+            },
+            {
+                "DeviceName": "/dev/sdb",
+                "VirtualName": "ephemeral0"
+            },
+            {
+                "DeviceName": "/dev/sdc",
+                "VirtualName": "ephemeral1"
+            }
+        ],
+        "Description": "Canonical, Ubuntu, 20.04 LTS, amd64 focal image build on 2024-04-16",
+        "EnaSupport": true,
+        "Hypervisor": "xen",
+        "ImageOwnerAlias": "aws-marketplace",
+        "Name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20240416-aced0818-eef1-427a-9e04-8ba38bada306",
+        "RootDeviceName": "/dev/sda1",
+        "RootDeviceType": "ebs",
+        "SriovNetSupport": "simple",
+        "VirtualizationType": "hvm",
+        "BootMode": "legacy-bios",
+        "DeprecationTime": "2026-04-17T00:22:43.000Z"
+    },
+    {
+        "Architecture": "arm64",
+        "CreationDate": "2024-04-16T23:25:22.000Z",
+        "ImageId": "ami-0827b92a8bf75df84",
+        "ImageLocation": "amazon/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-arm64-server-20240416",
+        "ImageType": "machine",
+        "Public": true,
+        "OwnerId": "099720109477",
+        "PlatformDetails": "Linux/UNIX",
+        "UsageOperation": "RunInstances",
+        "State": "available",
+        "BlockDeviceMappings": [
+            {
+                "DeviceName": "/dev/sda1",
+                "Ebs": {
+                    "DeleteOnTermination": true,
+                    "SnapshotId": "snap-0b3cc967791828f50",
+                    "VolumeSize": 8,
+                    "VolumeType": "gp2",
+                    "Encrypted": false
+                }
+            },
+            {
+                "DeviceName": "/dev/sdb",
+                "VirtualName": "ephemeral0"
+            },
+            {
+                "DeviceName": "/dev/sdc",
+                "VirtualName": "ephemeral1"
+            }
+        ],
+        "Description": "Canonical, Ubuntu, 20.04 LTS, arm64 focal image build on 2024-04-16",
+        "EnaSupport": true,
+        "Hypervisor": "xen",
+        "ImageOwnerAlias": "amazon",
+        "Name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-arm64-server-20240416",
+        "RootDeviceName": "/dev/sda1",
+        "RootDeviceType": "ebs",
+        "SriovNetSupport": "simple",
+        "VirtualizationType": "hvm",
+        "DeprecationTime": "2026-04-16T23:25:22.000Z"
+    },
+    {
+        "Architecture": "arm64",
+        "CreationDate": "2024-04-26T13:43:09.000Z",
+        "ImageId": "ami-063dc709a09d2d944",
+        "ImageLocation": "amazon/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-arm64-server-20240426",
+        "ImageType": "machine",
+        "Public": true,
+        "OwnerId": "099720109477",
+        "PlatformDetails": "Linux/UNIX",
+        "UsageOperation": "RunInstances",
+        "State": "available",
+        "BlockDeviceMappings": [
+            {
+                "DeviceName": "/dev/sda1",
+                "Ebs": {
+                    "DeleteOnTermination": true,
+                    "SnapshotId": "snap-07d7d7fdbe306adaa",
+                    "VolumeSize": 8,
+                    "VolumeType": "gp2",
+                    "Encrypted": false
+                }
+            },
+            {
+                "DeviceName": "/dev/sdb",
+                "VirtualName": "ephemeral0"
+            },
+            {
+                "DeviceName": "/dev/sdc",
+                "VirtualName": "ephemeral1"
+            }
+        ],
+        "Description": "Canonical, Ubuntu, 20.04 LTS, arm64 focal image build on 2024-04-26",
+        "EnaSupport": true,
+        "Hypervisor": "xen",
+        "ImageOwnerAlias": "amazon",
+        "Name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-arm64-server-20240426",
+        "RootDeviceName": "/dev/sda1",
+        "RootDeviceType": "ebs",
+        "SriovNetSupport": "simple",
+        "VirtualizationType": "hvm",
+        "DeprecationTime": "2026-04-26T13:43:09.000Z"
+    },
+    {
+        "Architecture": "arm64",
+        "CreationDate": "2024-04-26T14:30:16.000Z",
+        "ImageId": "ami-0f5008464ae142e28",
+        "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-arm64-server-20240426-3ba3581b-86f4-4bf1-a9a5-c2e11fe9408d",
+        "ImageType": "machine",
+        "Public": true,
+        "OwnerId": "679593333241",
+        "PlatformDetails": "Linux/UNIX",
+        "UsageOperation": "RunInstances",
+        "ProductCodes": [
+            {
+                "ProductCodeId": "3j3t5wgc6orwshxai7wk5sux9",
+                "ProductCodeType": "marketplace"
+            }
+        ],
+        "State": "available",
+        "BlockDeviceMappings": [
+            {
+                "DeviceName": "/dev/sda1",
+                "Ebs": {
+                    "DeleteOnTermination": true,
+                    "SnapshotId": "snap-0b44d94f4fd58cb2a",
+                    "VolumeSize": 8,
+                    "VolumeType": "gp2",
+                    "Encrypted": false
+                }
+            },
+            {
+                "DeviceName": "/dev/sdb",
+                "VirtualName": "ephemeral0"
+            },
+            {
+                "DeviceName": "/dev/sdc",
+                "VirtualName": "ephemeral1"
+            }
+        ],
+        "Description": "Canonical, Ubuntu, 20.04 LTS, arm64 focal image build on 2024-04-26",
+        "EnaSupport": true,
+        "Hypervisor": "xen",
+        "ImageOwnerAlias": "aws-marketplace",
+        "Name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-arm64-server-20240426-3ba3581b-86f4-4bf1-a9a5-c2e11fe9408d",
+        "RootDeviceName": "/dev/sda1",
+        "RootDeviceType": "ebs",
+        "SriovNetSupport": "simple",
+        "VirtualizationType": "hvm",
+        "DeprecationTime": "2026-04-26T14:30:16.000Z"
+    },
+    {
+        "Architecture": "x86_64",
+        "CreationDate": "2024-04-26T14:28:42.000Z",
+        "ImageId": "ami-0983e2337598a2ecb",
+        "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20240426-aced0818-eef1-427a-9e04-8ba38bada306",
+        "ImageType": "machine",
+        "Public": true,
+        "OwnerId": "679593333241",
+        "PlatformDetails": "Linux/UNIX",
+        "UsageOperation": "RunInstances",
+        "ProductCodes": [
+            {
+                "ProductCodeId": "a8jyynf4hjutohctm41o2z18m",
+                "ProductCodeType": "marketplace"
+            }
+        ],
+        "State": "available",
+        "BlockDeviceMappings": [
+            {
+                "DeviceName": "/dev/sda1",
+                "Ebs": {
+                    "DeleteOnTermination": true,
+                    "SnapshotId": "snap-00fcb831bc6bd9927",
+                    "VolumeSize": 8,
+                    "VolumeType": "gp2",
+                    "Encrypted": false
+                }
+            },
+            {
+                "DeviceName": "/dev/sdb",
+                "VirtualName": "ephemeral0"
+            },
+            {
+                "DeviceName": "/dev/sdc",
+                "VirtualName": "ephemeral1"
+            }
+        ],
+        "Description": "Canonical, Ubuntu, 20.04 LTS, amd64 focal image build on 2024-04-26",
+        "EnaSupport": true,
+        "Hypervisor": "xen",
+        "ImageOwnerAlias": "aws-marketplace",
+        "Name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20240426-aced0818-eef1-427a-9e04-8ba38bada306",
+        "RootDeviceName": "/dev/sda1",
+        "RootDeviceType": "ebs",
+        "SriovNetSupport": "simple",
+        "VirtualizationType": "hvm",
+        "BootMode": "legacy-bios",
+        "DeprecationTime": "2026-04-26T14:28:42.000Z"
+    },
+    {
+        "Architecture": "x86_64",
+        "CreationDate": "2024-04-16T23:25:45.000Z",
+        "ImageId": "ami-039f97a3f98ab3761",
+        "ImageLocation": "amazon/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20240416",
+        "ImageType": "machine",
+        "Public": true,
+        "OwnerId": "099720109477",
+        "PlatformDetails": "Linux/UNIX",
+        "UsageOperation": "RunInstances",
+        "State": "available",
+        "BlockDeviceMappings": [
+            {
+                "DeviceName": "/dev/sda1",
+                "Ebs": {
+                    "DeleteOnTermination": true,
+                    "SnapshotId": "snap-094cf05f3b28afd10",
+                    "VolumeSize": 8,
+                    "VolumeType": "gp2",
+                    "Encrypted": false
+                }
+            },
+            {
+                "DeviceName": "/dev/sdb",
+                "VirtualName": "ephemeral0"
+            },
+            {
+                "DeviceName": "/dev/sdc",
+                "VirtualName": "ephemeral1"
+            }
+        ],
+        "Description": "Canonical, Ubuntu, 20.04 LTS, amd64 focal image build on 2024-04-16",
+        "EnaSupport": true,
+        "Hypervisor": "xen",
+        "ImageOwnerAlias": "amazon",
+        "Name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20240416",
+        "RootDeviceName": "/dev/sda1",
+        "RootDeviceType": "ebs",
+        "SriovNetSupport": "simple",
+        "VirtualizationType": "hvm",
+        "BootMode": "legacy-bios",
+        "DeprecationTime": "2026-04-16T23:25:45.000Z"
+    },
+    {
+        "Architecture": "x86_64",
+        "CreationDate": "2024-04-26T13:43:38.000Z",
+        "ImageId": "ami-091c4300a778841cc",
+        "ImageLocation": "amazon/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20240426",
+        "ImageType": "machine",
+        "Public": true,
+        "OwnerId": "099720109477",
+        "PlatformDetails": "Linux/UNIX",
+        "UsageOperation": "RunInstances",
+        "State": "available",
+        "BlockDeviceMappings": [
+            {
+                "DeviceName": "/dev/sda1",
+                "Ebs": {
+                    "DeleteOnTermination": true,
+                    "SnapshotId": "snap-051623ed89e03e4a7",
+                    "VolumeSize": 8,
+                    "VolumeType": "gp2",
+                    "Encrypted": false
+                }
+            },
+            {
+                "DeviceName": "/dev/sdb",
+                "VirtualName": "ephemeral0"
+            },
+            {
+                "DeviceName": "/dev/sdc",
+                "VirtualName": "ephemeral1"
+            }
+        ],
+        "Description": "Canonical, Ubuntu, 20.04 LTS, amd64 focal image build on 2024-04-26",
+        "EnaSupport": true,
+        "Hypervisor": "xen",
+        "ImageOwnerAlias": "amazon",
+        "Name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20240426",
+        "RootDeviceName": "/dev/sda1",
+        "RootDeviceType": "ebs",
+        "SriovNetSupport": "simple",
+        "VirtualizationType": "hvm",
+        "BootMode": "legacy-bios",
+        "DeprecationTime": "2026-04-26T13:43:38.000Z"
+    },
+    {
+        "Architecture": "arm64",
+        "CreationDate": "2024-04-17T00:22:34.000Z",
+        "ImageId": "ami-0f55d460a0f3aa0ac",
+        "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-arm64-server-20240416-3ba3581b-86f4-4bf1-a9a5-c2e11fe9408d",
+        "ImageType": "machine",
+        "Public": true,
+        "OwnerId": "679593333241",
+        "PlatformDetails": "Linux/UNIX",
+        "UsageOperation": "RunInstances",
+        "ProductCodes": [
+            {
+                "ProductCodeId": "3j3t5wgc6orwshxai7wk5sux9",
+                "ProductCodeType": "marketplace"
+            }
+        ],
+        "State": "available",
+        "BlockDeviceMappings": [
+            {
+                "DeviceName": "/dev/sda1",
+                "Ebs": {
+                    "DeleteOnTermination": true,
+                    "SnapshotId": "snap-0e656f1f904d185f5",
+                    "VolumeSize": 8,
+                    "VolumeType": "gp2",
+                    "Encrypted": false
+                }
+            },
+            {
+                "DeviceName": "/dev/sdb",
+                "VirtualName": "ephemeral0"
+            },
+            {
+                "DeviceName": "/dev/sdc",
+                "VirtualName": "ephemeral1"
+            }
+        ],
+        "Description": "Canonical, Ubuntu, 20.04 LTS, arm64 focal image build on 2024-04-16",
+        "EnaSupport": true,
+        "Hypervisor": "xen",
+        "ImageOwnerAlias": "aws-marketplace",
+        "Name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-arm64-server-20240416-3ba3581b-86f4-4bf1-a9a5-c2e11fe9408d",
+        "RootDeviceName": "/dev/sda1",
+        "RootDeviceType": "ebs",
+        "SriovNetSupport": "simple",
+        "VirtualizationType": "hvm",
+        "DeprecationTime": "2026-04-17T00:22:34.000Z"
+    }
+]

@@ -1,0 +1,39 @@
+---
+
+- name: Installing dependencies
+  package:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  loop:
+    - curl
+    - gnupg
+    - python3-pip
+    - awscli
+  become: true
+
+- name: create user expedition
+  user:
+    name: expedition
+    state: present
+    password: "{{ 'paloalto' | password_hash('sha512') }}"
+  become: true
+
+- name: Ensure the group exists
+  group:
+    name: sudo
+    state: present
+
+- name: Add user to the group
+  user:
+    name: expedition
+    groups: sudo
+    append: yes
+  become: true
+
+- name: Unarchive Expedition
+  ansible.builtin.unarchive:
+    src: https://conversionupdates.paloaltonetworks.com/expedition1_Installer_latest.tgz
+    dest: /tmp/
+    remote_src: yes
+
